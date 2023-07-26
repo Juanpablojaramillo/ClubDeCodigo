@@ -1,0 +1,72 @@
+*{
+    background: black;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#Logo{
+    height: 200px;
+    width: 300px;
+    color: white;
+}
+
+.btnEncriptar{
+    border-radius: 10%;
+    border: 2px solid blue;
+    margin-left: 200px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: black;
+}
+
+#mesaggeArea{
+    border: 2px solid red;
+    
+}
+
+#TextAreaCaja{
+    border: 2px solid blue;
+    
+}
+
+
+
+.btnDesencriptar{
+    border-radius: 10%;
+    border: 2px solid blue;
+    margin-left: 200px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color: black;
+}
+
+#areaTexto{
+    background: black;
+    width: 65%;
+    height: 35%;
+    color: white;
+    text-transform: lowercase;
+    font-family:'Inter', sans-serif;
+    overflow: hidden;
+    resize:none;
+    margin-left:10%;
+    margin-top: 0%;
+    padding:5%;
+    border-radius: 32px;
+}
+
+.messaggeArea{
+    width: 50px;
+    color: white;
+}
